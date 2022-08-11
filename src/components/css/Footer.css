@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  /* height: 10rem; */
+  /* background-color: #3a3a3a; */
+  /* background-color: #1e1e22; */
+  background-color: #17171b;
+  /* background-color: #111114; */
+  /* background-color: #0d0d10; */
+}
+
+.contact-us-label {
+  color: #eeeeee;
+  font-size: 1.5rem;
+  padding-left: 1.75rem;
+  /* position: relative; */
+  /* top: -0.89rem; */
+  padding-top: 10px;
+}
+
+.creater-box{
+  /* height: 80%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+.creater {
+  height: 3rem;
+  width: 36%;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  /* background-color: #1e1e22; */
+  background-color: #17171b;
+  /* border: 1px solid #eeeeee; */
+  border: 1px solid #555555;
+  border-radius: 10px;
+}
+
+.creater .creater-name {
+  color: #eeeeee;
+  position: relative;
+  top: -1.65rem;
+  /* background-color: #1e1e22; */
+  background-color: #17171b;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.creater .creater-contact-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #aaaaaa;
+  font-size: 14px;
+  padding-right: 2rem;
+  
+  position: relative;
+  top: -1rem;
+}
+.creater .creater-email{
+  padding-left: 4%;
+}
+
+.creater .creater-github {
+  /* left: 10rem; */
+  padding-left: 10%;
+  /* align-items: flex-end; */
+}
+.creater .creater-linkedin {
+  /* align-items: flex-end; */
+  /* position: relative; */
+  padding-left: 7%;
+  width: fit-content;
+  /* left: 1rem; */
+}
+ a{
+  color: #aaaaaa;
+  text-decoration: none;
+  margin: 40px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  
+}
+
+ a:hover{
+  color: #000;
+  background-color: rgb(217, 225, 225);
+  
+}

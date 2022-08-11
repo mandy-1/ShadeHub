@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  /* background-color: #33333a; */
+  background-color: #1e1e22;
+}
+.color-picker {
+  /* background-color: red; */
+  /* fle
+  width: auto; */
+  width: 30%;
+  margin-top: 1rem;
+  /* height: 150px; */
+  /* height: 100vh; */
+}
+
+
+.color-picker .react-colorful{
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.color-picker .react-colorful {
+  padding: 16px;
+  border-radius: 12px;
+  /* background: #33333a; */
+  /* background: #3b3b42; */
+  background: #3a3a3a;
+  /* background: #171717; */
+  /* box-shadow: 0 6px 12px #999; */
+}
+
+.color-picker .react-colorful__saturation {
+  margin: 15px 0;
+  border-radius: 5px;
+  border-bottom: none;
+}
+.color-picker .react-colorful__hue {
+  height: 14px;
+  border-radius: 5px;
+}
+.color-picker .react-colorful__hue-pointer {
+  width: 20px;
+  height: 20px;
+}
+
+.display-color {
+  padding-left: 2rem;
+  margin-top: 1.6rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  /* margin-left: 3rem; */
+  color: #eeeeee;
+}
+
+.current-color-info{
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  padding-left: 2rem;
+  /* padding-top: 1rem; */
+}
+
+.current-color-box {
+  /* border-left: 24px solid #000; */
+  width: 5rem;
+  height: 5rem;
+  
+  /* margin-left: 3rem; */
+  margin-top: 1rem;
+  border-radius: 10%;
+}
+
+
+
+.color-input {
+  /* height: 10px; */
+  margin-left: 2rem;
+  margin-top: 1.6rem;
+  width: 50%;
+  height: 2rem;
+  border: none;
+  color: #eeeeee;
+  
+  text-align: center;
+
+  /* background-color: #1e1e22; */
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+  border-radius: 2%;
+}
+
+.partition {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  height: 0px;
+  border-bottom: 1px solid #555555;
+}
+
+.corresponding-color-text {
+  padding-left: 2rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  /* margin-left: 3rem; */
+  color: #eeeeee;
+  margin-bottom: 1rem;
+}
+
+.color-key-text{
+  /* color: #eeeeee; */
+  color: #bbbbbb;
+  padding: 2px;
+  /* height: 10px; */
+  font-size: 15px;
+  margin-left: 2.5rem;
+}
+
+.color-value-text{
+  position: absolute;
+  left: 10rem;
+  /* margin-left: 3rem; */
+}
+
+
+
+
+.shades {
+  background-color: white;
+  width: 70%;
+}
+
+.shades-list {
+  display: grid;
+  grid-template-columns: repeat(10,10%);
+  /* grid-template-rows: repeat(25,10%); */
+}
+.shade, .tint{
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 5x; */
+  /* font-weight: 600; */
+  font-size: 14px;
+  /* font-weight: 500; */
+}
+
+.tint-text{
+  font-weight: 500;
+}
+
+.shade-text {
+  color: #eeeeee;
+}
+
